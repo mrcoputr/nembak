@@ -26,8 +26,8 @@
     cursor: pointer;
     font-size: larger;
     font-weight: bold;
-    display: flex;
-    flex:row;
+    position: relative;
+    padding: 20px;
     border-radius: 30px;
     color:black;
     
