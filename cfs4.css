@@ -1,0 +1,43 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #cca9dd;
+}
+
+.parallax{
+   
+    width: 100%;
+    height: 100vh;
+}
+
+.intro {
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    position: absolute;
+    margin: 5px;
+    margin-top: 60px;
+}
+
+.nextz{
+    border: 2px solid black;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    padding: 70px;
+    margin: 200px 25px;
+    border-radius: 30px;
+    color:black;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .intro{
+        width: 100%;
+        height: 100vh;
+    }
+}

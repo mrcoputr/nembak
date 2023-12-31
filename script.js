@@ -1,0 +1,1 @@
+alert('Dibaca semua ya jangan di skip!');
